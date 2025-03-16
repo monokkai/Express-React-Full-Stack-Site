@@ -13,10 +13,7 @@ const FieldInfo = () => {
 
     infoSendMiddleware((set) => {
       set({ type: "user-fetching", payload: data });
-    })(
-      (args) => {},
-      () => ({ userId, userData: data })
-    );
+    })(() => ({ userId, userData: data }));
   };
 
   return (
