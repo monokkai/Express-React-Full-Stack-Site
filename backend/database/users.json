@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "firstName": "Иван",
+    "lastName": "Иванов",
+    "email": "ivan@example.com",
+    "address": "г. Москва, ул. Ленина, д. 10"
+  },
+  {
+    "id": 2,
+    "firstName": "Мария",
+    "lastName": "Смирнова",
+    "email": "maria@example.com",
+    "address": "г. Санкт-Петербург, ул. Литейная, д. 5"
+  }
+]
