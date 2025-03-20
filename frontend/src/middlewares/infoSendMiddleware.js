@@ -1,11 +1,10 @@
 const infoSendMiddleware = (config) => (set, get, api) => {
   return config(
     (args) => {
-      // Логируем действие
       const logData = {
-        date: new Date().toISOString(), // Текущая дата и время
-        action: args.type || "unknown", // Тип действия (если есть)
-        state: get(), // Текущее состояние
+        date: new Date().toISOString(), 
+        action: args.type || "unknown", 
+        state: get(), 
       };
 
       fetch("http://localhost:3000/logger", {
